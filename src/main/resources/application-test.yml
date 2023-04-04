@@ -1,0 +1,20 @@
+spring:
+  h2:
+    console:
+      enabled: true
+      path: /h2
+  datasource:
+    url: jdbc:h2:mem:mytestdb
+    username: sa
+    password:
+    driverClassName: org.h2.Driver
+    
+weapons:
+  types:
+    1: rockTest
+    2: paperTest
+    3: scissorsTest
+  strengths:
+    1: 3
+    2: 1
+    3: 2
